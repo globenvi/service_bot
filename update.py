@@ -64,7 +64,7 @@ def install_requirements():
     if os.path.exists(req_file):
         try:
             print("Установка зависимостей из requirements.txt...")
-            subprocess.check_call(["python3", "-m", "pip", "install", "-r", req_file])
+            subprocess.check_call(["python3", "-m", "pip3", "install", "-r", req_file])
             print("Зависимости успешно установлены.")
         except subprocess.CalledProcessError as e:
             print(f"Ошибка при установке зависимостей: {e}")
