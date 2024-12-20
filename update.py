@@ -7,9 +7,9 @@ import json
 from zipfile import ZipFile
 
 # Конфигурация
-GITHUB_REPO = "globenvi/partbot"  # Репозиторий
+GITHUB_REPO = "globenvi/service_bot"  # Репозиторий
 BRANCH = "main"  # Ветка
-CHECK_INTERVAL = 10  # Интервал проверки обновлений в секундах
+CHECK_INTERVAL = 18000  # Интервал проверки обновлений в секундах
 LAST_COMMIT_FILE = "last_commit.txt"  # Файл для хранения последнего зафиксированного коммита
 CONFIG_FILE = "config.json"  # Файл конфигурации
 ENV_FILE = ".env"  # Файл .env
