@@ -8,6 +8,24 @@
             "last_activity": "2024-12-20T10:31:08.010212",
             "role": "admin",
             "id": 1
+        },
+        {
+            "tg_id": 665852999,
+            "username": "dottenv",
+            "first_name": ".env",
+            "last_name": null,
+            "last_activity": "2024-12-20T12:19:31.305994",
+            "role": "admin",
+            "id": 2
+        },
+        {
+            "tg_id": 7556524904,
+            "username": "globtolf",
+            "first_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439",
+            "last_name": "\u0413\u043e\u043b\u0443\u0431\u0435\u0432",
+            "last_activity": "2024-12-20T12:38:23.949979",
+            "role": "user",
+            "id": 3
         }
     ],
     "prices": [
@@ -65,6 +83,11 @@
             "category": null,
             "price": "\ud83d\udcf1 \u0420\u0435\u043c\u043e\u043d\u0442 iPhone",
             "id": 11
+        },
+        {
+            "category": "\ud83d\udcf3 Android \ud83d\udcf3 Android",
+            "price": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430.",
+            "id": 12
         }
     ]
 }

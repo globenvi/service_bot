@@ -1,0 +1,13 @@
+# Исключение папки logs
+logs/
+logs/*
+
+# Исключение папки datafiles
+datafiles/
+datafiles/*
+
+# Исключение .env файла
+.env
+
+# Исключение config.json
+config.json

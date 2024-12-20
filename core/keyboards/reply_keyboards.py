@@ -11,6 +11,10 @@ start_keyboard = ReplyKeyboardMarkup(
             KeyboardButton(text="⌚️ Ремонт iWatch"),
             KeyboardButton(text="🫧 Переклейка")
         ],
+        [
+            KeyboardButton(text="📳 Android"),
+            KeyboardButton(text="💻 Ноутбуки")
+        ],
     ],
     resize_keyboard=True,
     one_time_keyboard=True,
@@ -39,6 +43,38 @@ iphone_repair_keyboard = ReplyKeyboardMarkup(
         [
             KeyboardButton(text="🔙 Назад")
         ],
+    ],
+    resize_keyboard=True,
+    one_time_keyboard=True,
+    row_width=2,
+)
+
+# Ноутбуки ремонт
+notebook_sub_repair_keyboard = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="🔧 Техническое обслуживание"),
+            KeyboardButton(text="🛠️ Модульный ремонт")
+        ],
+        [
+            KeyboardButton(text="⌨️ Замена клавиатуры"),
+            KeyboardButton(text="💽 Ремонт корпуса")
+        ],
+        [
+            KeyboardButton(text="🔌 Замена разъемов"),
+            KeyboardButton(text="🔋 Цепи питания")
+        ],
+        [
+            KeyboardButton(text="🛠️ Монтаж BGA"),
+            KeyboardButton(text="🖥️ Прошивка BIOS")
+        ],
+        [
+            KeyboardButton(text="💾 Прошивка FirmWare (FW)"),
+            KeyboardButton(text="📶 Программный ремонт")
+        ],
+        [
+            KeyboardButton(text="🔙 Назад")
+        ]
     ],
     resize_keyboard=True,
     one_time_keyboard=True,
@@ -94,8 +130,6 @@ ipad_repair_keyboard = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="⚡ Замена шлейфа зарядки"),
-        ],
-        [
             KeyboardButton(text="🔌 Замена контроллера заряда"),
         ],
         [
@@ -116,7 +150,7 @@ iwatch_repair_keyboard = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="💧 Чистка от влаги"),
-            KeyboardButton(text="💾 Прошивка")
+            KeyboardButton(text="📶 Прошивка")
         ],
         [
             KeyboardButton(text="🧑‍🔧 Стекло корпуса"),
